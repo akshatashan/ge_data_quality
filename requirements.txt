@@ -1,0 +1,6 @@
+ruamel.yaml==0.17.10
+ruamel.yaml.clib==0.2.6
+great-expectations==0.13.30
+pybigquery==0.10.0
+apache-airflow-providers-slack==4.0.0
+slack-sdk==3.9.1

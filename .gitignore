@@ -1,0 +1,22 @@
+.env
+
+# byte-compiled files
+__pycache__/
+*.pyc
+
+# Postgres data
+pgdata/
+
+# IDEs
+.vscode
+.idea
+
+# Other stuff
+.DS_Store
+.ipynb
+.virtualenvs
+
+# IGNORE ENV
+.env
+
+logs/

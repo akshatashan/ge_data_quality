@@ -1,0 +1,46 @@
+{
+  "data_asset_type": "Dataset",
+  "expectation_suite_name": "expectation_suite",
+  "expectations": [
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "column1"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "column2"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_match_regex",
+      "kwargs": {
+        "column": "column3",
+        "regex": "^axios"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "column4",
+      "kwargs": {
+        "column": "data.reqBody.env",
+        "value_set": [
+          "prod",
+          "prod-eu",
+          "stg",
+          "rc",
+          "dev",
+          "int-stg"
+        ]
+      },
+      "meta": {}
+    }
+  ],
+  "meta": {
+    "great_expectations_version": "0.13.30"
+  }
+}
