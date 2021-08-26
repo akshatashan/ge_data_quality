@@ -1,4 +1,4 @@
-## data-etl
+## ge_data_quality
 
 This repository contains data quality checks defined using great-expectations library for tables in bigquery.
 In GCP, the airflow orchestration to run the dags is done via Cloud Composer. Cloud Composer is a manageed cloud solution for Airflow.
